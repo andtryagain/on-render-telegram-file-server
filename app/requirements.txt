@@ -1,0 +1,5 @@
+Flask==2.3.3
+Flask-AutoIndex==0.6.6
+Pyrogram==2.0.106
+python-dotenv==1.0.0
+# tgcrypto==1.2.5
