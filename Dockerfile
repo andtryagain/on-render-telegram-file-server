@@ -2,6 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 COPY ./app /app
+COPY ./.env /app/.env
 
 ADD crontab /etc/cron.d/empty-result-folder
 
